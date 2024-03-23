@@ -33,7 +33,7 @@ local coolVariable = "This is a cool variable!"
 print(CoolVariable)
 ```
 
-This code will print "nil" instead of "This is a cool variable!". This is because we haven't declared a variable named `CoolVariable` (notice the capital C). While most coding languages will immediately throw an error telling you that the variable does not exist, Lua does not do that. This makes typos like this particularly dangerous, as they cnn lead to unexpected bugs.
+This code will print "nil" instead of "This is a cool variable!". This is because we haven't declared a variable named `CoolVariable` (notice the capital C). While most coding languages will immediately throw an error telling you that the variable does not exist, Lua does not do that. This makes typos like this particularly dangerous, as they can lead to unexpected bugs.
 
 When declaring a variable, you don't need to assign it a value immediately:
 
@@ -230,7 +230,7 @@ print(variable2)
 </details>
 <br>
 
-4.) This is a trick one. Write a code snippet that declares a variable named "best_item" and give it a value of the name of your favorite item! Then, print out "The best item in the game is: " followed with the value of the variable.
+5.) This is a trick one. Write a code snippet that declares a variable named "best_item" and give it a value of the name of your favorite item! Then, print out "The best item in the game is: " followed with the value of the variable.
 
 <details>
 <summary>Solution</summary>
