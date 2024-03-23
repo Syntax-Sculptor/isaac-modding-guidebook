@@ -1,6 +1,6 @@
 # Introduction to Variables
 
-When coding, you will often need to store values and access them later. For example, you might want to track the number of coins collected in a run or the number of times you've defeated a specific enemy. This is where variables come on!
+When coding, you will often need to store values and access them later. For example, you might want to track the total number of coins collected in a run or the number of times you've defeated a specific enemy. This is where variables come on!
 
 A **variable** is a named object that stores a value. Declaring (creating) a variable in Lua is straightforward.
 
@@ -10,7 +10,7 @@ local greeting = "Hello World!"
 
 Let's break down the code:
 
-- `local`: The `local` keyword indicates that the variable is **locally scoped**. We'll discuss scope in detail in a later section, but for now, remember to almost always include it!
+- `local`: The `local` keyword indicates that the variable is **locally scoped**. We'll discuss scope in detail in a later section, but for now, remember to always include it!
 - `greeting`: This is the name of the variable. We've chosen it to be "greeting".
 - `=`: This is the **assignment operator**. The assignment operator assigns the value on the right-hand side to the left-hand side.
 - `"Hello World!"`: This is the value assigned to the variable.
@@ -53,7 +53,7 @@ myVariable = "Goodbye World!" -- Change the value of `myVariable` to "Goodbye Wo
 print(myVariable) -- Prints "Goodbye World!"
 ```
 
-Notice that we didn't use `local` when changing the value on the third line. This is because we already declared the variable on the first line. Using `local` again would create a new, separate variable with the same name. While this might work in simple examples such as this, it can lead to unexpected problems in more complex code. We'll discuss this further in a later section.
+Notice that we didn't use `local` when changing the value on the third line. This is because we already declared the variable on the first line. Using `local` again would create a new, separate variable with the same name. While this doesn't make a difference in simple examples such as this, it can lead to unexpected problems in more complex code. We'll discuss this further in a later section.
 
 
 > **⚠️ Remember**
@@ -92,21 +92,27 @@ When naming variables in Lua, you must follow certain rules. Violating these rul
 
 ## No Special Characters
 
-Variable names cannot contain special characters like "!", "$", or spaces. The only exception is the underscore (`_`).
+Variable names can only consist of the following characters:
+- Uppercase and lowercase English letters.
+- Numbers.
+- Underscore (`_`).
+
+Any other characters, such as `!`, `-`, or spaces are not allowed.
 
 **❌ Bad**
 
 ```lua
-local variable 1 = "Hello World!"
-local variable2! = "Hello World!"
-local variable-3 = "Hello World!"
+local my-variable1 = "Hello World!"
+local my variable2 = "Hello World!"
+local myvariable3! = "Hello World!"
 ```
 
 **✅ Good**
 
 ```lua
-local variable1 = "Hello World!"
-local variable_2 = "Hello World!"
+local my_variable1 = "Hello World!"
+local myVariable_2 = "Hello World!"
+local _myVariable3 = "Hello World!"
 ```
 
 ## No Numbers as the First Character
@@ -152,6 +158,7 @@ Variable names cannot be the same as Lua's reserved keywords. Here's a list of r
 - true
 - until
 - while
+
 
 While you could technically circumvent this by changing the case of the keyword (e.g., using `True` instead of `true`), this is strongly discouraged as it can lead to confusion.
 
@@ -237,7 +244,7 @@ print(variable2)
 
 ```lua
 local best_item = "Bob's Rotten Head"
-print("The best item in the game is: ")
+print("The best item in the game is:")
 print(best_item)
 ```
 </details>

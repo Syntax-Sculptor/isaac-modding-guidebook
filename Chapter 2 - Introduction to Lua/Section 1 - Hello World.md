@@ -24,7 +24,7 @@ print("Hello World!")
 
 Don't worry about what any of this means just yet. For now, save the file. The next step is to run it!
 
-Unlike resources such as sprites and animations, Lua files don't require restarting the game. The debug console offers a command to reload your mod's Lua files:
+Unlike resources such as sprites and animations, reloading Lua files doesn't require restarting the game. The debug console offers a command to reload your mod's Lua files:
 
 1. Open the debug console.
 2. Type `luamod MOD_FOLDER_NAME`, replacing "MOD_FOLDER_NAME" with your mod's actual folder name (case-sensitive). For example, if your mod folder is named "tutorial-mod", you'd run `luamod tutorial-mod`.
@@ -33,7 +33,7 @@ Upon running the command, you should see "Hello World!" printed onto the console
 
 # A Look at Printing
 
-The `print` function is used to display text in the output. You can print any message you want:
+The `print` function is used to display text in the debug console. You can print any message you want:
 
 ```lua
 print("Goodbye!")
@@ -50,13 +50,13 @@ print("Hello World!")
 print("Goodbye!")
 ```
 
-"Hello World!" would print out first followed by "Goodbye!"
+"Hello World!" would print out first, followed by "Goodbye!"
 
 # Use Cases of Print
 
 While seemingly simple, `print` is a powerful debugging tool. You can use it to:
-    - Verify if a specific portion of your code is being executed.
-    - Print out the value of variables (to be covered in a later section) to check their contents.
+  - Check if a specific portion of your code is being executed.
+  - Print out certain values or variables (to be covered in a later chapter) to better understand what's happening in your code.
 
 
 > ℹ️ **What About Other Debugging Methods?**
