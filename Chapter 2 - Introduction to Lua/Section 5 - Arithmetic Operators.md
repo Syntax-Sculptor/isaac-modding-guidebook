@@ -40,9 +40,11 @@ Lua 5.3 offers eight arithmetic operators:
 | % | **Modulo:** Divides two operands and returns the remainder | 10 % 4 | 2 |
 | - (unary) | **Unary minus:** Inverts the sign of the operand | -(10 - 4) | -6 |
 
+<br>
+
 >⚠️ **Division by Zero**
 > <br>
-> Dividing by zero is undefined in mathematics and can lead to unexpected behavior in programming. In Lua, dividing by zero will not throw an error but will instead return `inf` (infinity). Lua still treats this as a number, which can potentially cause undefined behavior and other bugs.
+> Dividing by zero is undefined in mathematics and can lead to unexpected behavior in programming. In Lua, dividing by zero will not throw an error but will instead return `inf` (infinity).
 
 # Operator Precedence
 
