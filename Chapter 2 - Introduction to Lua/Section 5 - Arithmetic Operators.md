@@ -71,8 +71,8 @@ You might expect this code to print "70", but it actually prints "52". This is b
 
 Below is the order precedence for arithmetic operators in Lua:
 
-1. **Unary minus**
-2. **Parenthesis** (expressions inside parenthesis are evaluated first, following the same precedence rules)
+1. **Parenthesis** (expressions inside parenthesis are evaluated first, following the same precedence rules)
+2. **Unary minus**
 3. **Exponent**
 4. **Multiplication and Division** (evaluated from left to right)
 5. **Addition and Subtraction** (evaluated from left to right)
