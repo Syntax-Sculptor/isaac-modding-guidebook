@@ -96,7 +96,7 @@ Congratulations! You've learned how to utilize arithmetic operators. Just like v
 
 Do not run these code snippets.
 
-1.) What does this print out?
+1.) What does this print?
 
 ```lua
 print(10/5)
@@ -108,7 +108,7 @@ print(10/5)
 </details>
 <br>
 
-2.) What does this print out?
+2.) What does this print?
 
 ```lua
 local myVariable = 2 + 5
@@ -121,7 +121,7 @@ print(myVariable)
 </details>
 <br>
 
-3.) What does this print out?
+3.) What does this print?
 
 ```lua
 local myCurrentValue = 10
@@ -135,7 +135,7 @@ print(myCurrentValue)
 </details>
 <br>
 
-4.) What does this print out?
+4.) What does this print?
 
 ```lua
 local variable1 = 10
@@ -149,7 +149,7 @@ print(variable2)
 </details>
 <br>
 
-5.) What does this print out?
+5.) What does this print?
 
 ```lua
 local variable1 = 10
@@ -164,7 +164,7 @@ print(variable3)
 </details>
 <br>
 
-6.) What does this print out?
+6.) What does this print?
 
 ```lua
 local myVariable = 2
@@ -177,7 +177,7 @@ print(myvariable / 2)
 </details>
 <br>
 
-7.) What does this print out?
+7.) What does this print?
 
 ```lua
 print((8 + 2)/2)

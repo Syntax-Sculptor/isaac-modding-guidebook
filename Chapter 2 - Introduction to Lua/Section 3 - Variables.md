@@ -182,7 +182,7 @@ Which variable name makes it clearer what the variable represents? Clearly, `gre
 
 **For this quiz, do not run the code snippets!**
 
-1.) What does the following code print? 
+1.) What does this print?
 
 ```lua
 local myVariable = "Hello!"
@@ -195,7 +195,7 @@ print(myVariable)
 </details>
 <br>
 
-2.) What does the following code print?
+2.) What does this print?
 
 ```lua
 local myVariable = "Hello!"
@@ -209,7 +209,7 @@ print(myVariable)
 </details>
 <br>
 
-3.) What does the following code print?
+3.) What does this print?
 
 ```lua
 local myVariable = "Hello World!"
@@ -222,7 +222,7 @@ nil
 </details>
 <br>
 
-4.) What does the following code print?
+4.) What does this print?
 
 ```lua
 local variable1 = "Hello World!"
