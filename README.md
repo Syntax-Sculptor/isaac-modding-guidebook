@@ -17,6 +17,7 @@ Welcome to the Isaac Modding Guidebook! This repository serves as a series of tu
 - [Section 2.4 - Intro to Data Types](./Chapter%202%20-%20Introduction%20to%20Lua/Section%204%20-%20Intro%20to%20Data%20Types.md)
 - [Section 2.5 - Arithmetic Operators](./Chapter%202%20-%20Introduction%20to%20Lua/Section%205%20-%20Arithmetic%20Operators.md)
 - [Section 2.6 - Relational Operators](./Chapter%202%20-%20Introduction%20to%20Lua/Section%206%20-%20Relational%20Operators.md)
+- [Section 2.7 - Conditional Statements](./Chapter%202%20-%20Introduction%20to%20Lua/Section%207%20-%20Conditional%20Statements.md)
 
 # Special Thanks
 

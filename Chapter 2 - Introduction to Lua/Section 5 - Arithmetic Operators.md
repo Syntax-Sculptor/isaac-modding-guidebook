@@ -1,4 +1,4 @@
-In [Section 2.4](./Section%204%20-%20Intro%20to%20Data%20Types.md), we introduced numbers as one of the fundamental data types in Lua. It was also stated that each data type has their own unique functionality. When it comes to numbers, we can use **arithmetic operators** to perform mathematical operations. 
+In [Section 2.4](./Section%204%20-%20Intro%20to%20Data%20Types.md), we introduced numbers as one of the fundamental data types in Lua. It was also stated that each data type has their own unique functionality. When it comes to numbers, we can use **arithmetic operators** to perform mathematical operations.
 
 Here is an example of an arithmetic operator in action.
 
@@ -6,12 +6,12 @@ Here is an example of an arithmetic operator in action.
 print(2 + 7)
 ```
 
-Running this will print out "7".  The `+` symbol is the addition operator, and it adds the two numbers together.
+Running this will print out "7". The `+` symbol is the addition operator, and it adds the two numbers together.
 
 You can also use arithmetic operators with variables:
 
 ```lua
-local myNumber = 10 
+local myNumber = 10
 print(myNumber + 15)
 ```
 
@@ -29,21 +29,20 @@ print(number2) -- Prints 40
 
 Lua 5.3 offers eight arithmetic operators:
 
-| Operator | Description | Example | Result
-| --- | ----------- | ----------- | --- |
-| + | **Addition:** Adds two operands | 10 + 4 | 14 |
-| - | **Subtraction:** Subtracts two operands | 10 - 4 | 6 |
-| * | **Multiplication:** Multiplies two operands | 10 * 4  | 40 |
-| / | **Division:** Divides two operands | 10 / 4 | 2.5 |
-| // | **Floored Division:** Divides two operands and rounds down the quotient | 10 // 4 | 2 |
-| ^ | **Exponent:** Raises the left operand to the power of the right operand | 10 ^ 4 | 10000 |
-| % | **Modulo:** Divides two operands and returns the remainder | 10 % 4 | 2 |
-| - (unary) | **Unary minus:** Inverts the sign of the operand | -(10 - 4) | -6 |
+| Operator  | Description                                                             | Example   | Result |
+| --------- | ----------------------------------------------------------------------- | --------- | ------ |
+| +         | **Addition:** Adds two operands                                         | 10 + 4    | 14     |
+| -         | **Subtraction:** Subtracts two operands                                 | 10 - 4    | 6      |
+| \*        | **Multiplication:** Multiplies two operands                             | 10 \* 4   | 40     |
+| /         | **Division:** Divides two operands                                      | 10 / 4    | 2.5    |
+| //        | **Floored Division:** Divides two operands and rounds down the quotient | 10 // 4   | 2      |
+| ^         | **Exponent:** Raises the left operand to the power of the right operand | 10 ^ 4    | 10000  |
+| %         | **Modulo:** Divides two operands and returns the remainder              | 10 % 4    | 2      |
+| - (unary) | **Unary minus:** Inverts the sign of the operand                        | -(10 - 4) | -6     |
 
 <br>
 
->⚠️ **Division by Zero**
-> <br>
+> ⚠️ **Division by Zero**
 > Dividing by zero is undefined in mathematics and can lead to unexpected behavior in programming. In Lua, dividing by zero will not throw an error but will instead return `inf` (infinity).
 
 # Operator Precedence
@@ -55,11 +54,11 @@ local finalAnswer = 5 - 1 + 3
 print(finalAnswer)
 ```
 
-Running this will print out "7". The operations are performed in this order: 
+Running this will print out "7". The operations are performed in this order:
 
 1. `5 - 1` is evaluated first, resulting in `4`.
 2. Then, `4 + 3` is evaluated, resulting in the final answer of `7`.
-   
+
 However, operator precedence can change the order of evaluation:
 
 ```lua
