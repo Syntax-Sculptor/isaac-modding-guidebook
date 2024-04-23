@@ -7,7 +7,7 @@ Welcome to the Isaac Modding Guidebook! This repository serves as a series of tu
 ## Chapter 1 - Introduction to Creating Mods
 
 - [Section 1.1 - Getting Started](./Chapter%201%20-%20Introduction%20to%20Creating%20Mods//Section%201%20-%20Getting%20Started.md)
-- [Section 1.1 - Creating a Mod](./Chapter%201%20-%20Introduction%20to%20Creating%20Mods//Section%202%20-%20Creating%20a%20Mod.md)
+- [Section 1.2 - Creating a Mod](./Chapter%201%20-%20Introduction%20to%20Creating%20Mods//Section%202%20-%20Creating%20a%20Mod.md)
 
 ## Chapter 2 - Introduction to Lua
 

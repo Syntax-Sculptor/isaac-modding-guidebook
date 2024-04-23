@@ -181,7 +181,7 @@ elseif myValue > 70 then
 end
 ```
 
-Running this will output:
+Running this will print out:
 
 ```
 myValue is greater than 50!
@@ -203,7 +203,7 @@ if myValue > 70 then
 end
 ```
 
-Running this will output:
+Running this will print out:
 
 ```
 myValue is greater than 50!
